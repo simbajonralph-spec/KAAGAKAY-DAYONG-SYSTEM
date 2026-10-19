@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pub-cache/
+.pub/
+.dart_tool/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build and outputs
+dist/
+build/
+uploads/
+*.log
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+*.iml
+.idea/
+
+# Flutter / Platform Ephemeral
+**/ephemeral/
+.flutter-plugins
+.flutter-plugins-dependencies

@@ -1,0 +1,15 @@
+{
+  "name": "kaagapay-dayong-workspace",
+  "version": "1.0.0",
+  "description": "Kaagapay Dayong Mutual Aid and Funeral Assistance Management System",
+  "scripts": {
+    "setup:db": "cd Kaagapay-Dayong-System/backend && node setup-database.js",
+    "dev:backend": "cd Kaagapay-Dayong-System/backend && npm run dev",
+    "dev:frontend": "cd Kaagapay-Dayong-System/frontend && npm run dev",
+    "build:frontend": "cd Kaagapay-Dayong-System/frontend && npm run build",
+    "mobile": "cd Kaagapay-Dayong-System/mobile && flutter run",
+    "mobile:web": "cd Kaagapay-Dayong-System/mobile && flutter run -d chrome",
+    "mobile:windows": "cd Kaagapay-Dayong-System/mobile && flutter run -d windows",
+    "install:all": "cd Kaagapay-Dayong-System/backend && npm install && cd ../frontend && npm install"
+  }
+}
